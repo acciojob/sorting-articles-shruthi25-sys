@@ -22,9 +22,9 @@ bands.sort((a, b) => {
     return stripArticle(a).localeCompare(stripArticle(b));
 });
 
-const list = document.getElementById("band");
+const list = document.getElementById("bands");
 
-bands.forEach(band => {
+bands.forEach(bands => {
     const li = document.createElement("li");
     li.textContent = band;
     list.appendChild(li);
