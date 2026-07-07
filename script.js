@@ -24,7 +24,7 @@ bands.sort((a, b) => {
 
 const list = document.getElementById("bands");
 
-bands.forEach(bands => {
+bands.forEach(band => {
     const li = document.createElement("li");
     li.textContent = band;
     list.appendChild(li);
