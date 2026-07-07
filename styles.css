@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#band {
+    width: 70%;
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+#band li {
+    font-size: 24px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
