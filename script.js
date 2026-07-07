@@ -14,12 +14,12 @@ const bands = [
     'An Old Dog'
 ];
 
-function removeArticle(name) {
+function stripArticle(name) {
     return name.replace(/^(a |an |the )/i, "").trim();
 }
 
 bands.sort((a, b) => {
-    return removeArticle(a).localeCompare(removeArticle(b));
+    return stripArticle(a).localeCompare(stripArticle(b));
 });
 
 const list = document.getElementById("band");
